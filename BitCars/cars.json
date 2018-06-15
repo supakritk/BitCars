@@ -1,0 +1,38 @@
+{
+    "car": [{
+        "id": 1,
+        "name": "Benz",
+        "properties": {
+            "fuel": 100,
+            "shape": "B"
+        }
+    },{
+        "id": 2,
+        "name": "Toyota",
+        "properties": {
+            "fuel": 100,
+            "shape": "T"
+        }
+    },{
+        "id": 3,
+        "name": "Honda",
+        "properties": {
+            "fuel": 100,
+            "shape": "H"
+        }
+    },{
+        "id": 4,
+        "name": "Valvo",
+        "properties": {
+            "fuel": 100,
+            "shape": "V"
+        }
+    },{
+        "id": 5,
+        "name": "Mazda",
+        "properties": {
+            "fuel": 100,
+            "shape": "M"
+        }
+    }]
+}

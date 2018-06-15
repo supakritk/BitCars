@@ -115,6 +115,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Car.hpp" />
+    <ClInclude Include="FileSystem.hpp" />
+    <ClInclude Include="GameEngine.hpp" />
+    <ClInclude Include="Gameplay.hpp" />
+    <ClInclude Include="json.hpp" />
+    <ClInclude Include="Map.hpp" />
+    <ClInclude Include="MapDrawing.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Car.cpp" />
+    <ClCompile Include="FileSystem.cpp" />
+    <ClCompile Include="GameEngine.cpp" />
+    <ClCompile Include="Gameplay.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="MapDrawing.cpp" />
+    <ClCompile Include="Source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cars.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="config.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
